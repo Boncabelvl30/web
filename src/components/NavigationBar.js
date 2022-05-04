@@ -3,9 +3,9 @@ import { Container, Navbar, Nav } from "react-bootstrap"
 const NavigationBar = () => {
     return (
         <div>
-            <Navbar>
+            <Navbar variant="dark">
                 <Container>
-                    <Navbar.Brand>Hanime.tv</Navbar.Brand>
+                    <Navbar.Brand>Nonton Gratis</Navbar.Brand>
                     <Nav>
                         <Nav.Link>Trending Now</Nav.Link>
                         <Nav.Link>Superhero</Nav.Link>
